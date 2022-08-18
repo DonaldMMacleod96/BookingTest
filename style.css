@@ -1,0 +1,405 @@
+.link_button{
+	background:none!important;
+	color:inhert;
+	border:none;
+	padding:0!important;
+	font: inherit;
+	/*border is optional*/
+	border-bottom:1px solid #444;
+	cursor: pointer;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.header{
+	padding: 15px;
+    color: white;
+	border: 1px solid #000000;
+    background-color: #3457D5;
+	position: relative;
+}
+
+.header_image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.userlogin{
+	font-family: "Arial";
+	font-size:20px;
+	float: left;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+}
+
+body {
+	background-color: white;
+}
+
+.menu{
+	background-color: #3457D5;
+	border: 1px solid #000000;	
+	padding: 5px 5px 5px 5px;
+	margin-top: 4px;
+	text-align: center;
+}
+
+.title{
+	font-size:45px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.option1{
+	margin-right: 3em;
+	margin-left: 0em;
+}
+
+.option2, .option3, .option4{
+	margin: 3em;
+}
+
+.option5{
+	margin-right: 0em;
+	margin-left: 3em;
+}
+
+.menu .icon{
+	display: none;
+}
+
+.menu a{
+	font-family: "Arial";
+	font-size: 20px;
+    text-align: center;
+	background-color: #3457D5;
+}
+
+@media only screen and (max-width: 1200px) {
+	.option1{
+		margin-right: 1.75em;
+		margin-left: 0em;
+	}
+	.option2, .option3, .option4{
+		margin: 1.75em;
+	}
+	.option5{
+		margin-right: 0em;
+		margin-left: 1.75em;
+	}
+	.title{
+		font-size:40px;		
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.option1{
+		margin-right: 1.50em;
+		margin-left: 0em;
+	}
+	.option2, .option3, .option4{
+		margin: 1.40em;
+	}
+	.option5{
+		margin-right: 0em;
+		margin-left: 1.40em;
+	}
+	.menu a{
+		font-size: 18px;
+	}
+}
+
+
+.login, .register, .booking{
+	font-family: "Arial";
+}
+
+.field{
+	font-family: "Arial";
+	font-size: 18px;
+	margin-right: 10px;
+	margin-top: 4px;
+	float:left;	
+}
+
+.field#field3, .field#field3 input{
+	margin-right: 0px;	
+}
+
+.field#field4{
+	margin-left: 50px;
+}
+
+.field#field5, .field#field6{
+	margin-right: 20px;
+}
+
+.field#field7{
+	margin-right: 0px;
+}
+
+.field#field8{
+	clear: left;
+}
+
+.field#field8 select{
+	width:50px;
+	margin-right:0px;
+}
+
+div#section{
+	clear:left;
+}
+
+input[name="firstname"], input[name="address"]{
+	width: 350px;
+}
+
+input{
+	width: 300px;
+	font-family: "Arial";
+	font-size: 18px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	height:27px;
+}
+
+input[type="submit"]{
+	font-family: "Arial";
+	font-size: 18px;
+	width: auto;
+}
+
+label .mandatory{
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+select, input[name="return_day_and_date"], input[name="day_and_date_from"]{
+	font-family: "Arial";
+	font-size: 18px;
+	width: 250px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	height:27px;
+}
+
+option{
+	color: black;
+}
+
+.empty, #destination_from option[disabled], #destination_to option[disabled]{
+	color: gray;	
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: gray;
+   opacity: 1;
+}
+
+div.hidden{
+	display: none;
+}
+
+.hidden{
+	display: none;
+}
+
+table, th, td{
+	font-family: "Arial";
+	font-size: 16px;
+	margin-top: 4px;
+	text-align: left;
+    padding: 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table{
+	width: 100%;
+}
+
+.homepage{
+	border: 1px solid #000000;
+	position: relative;
+	font-family: "Arial";
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.homepage a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;;
+}
+
+.homepage a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;;
+}
+
+.homepage a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.homepage a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#section a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;;
+}
+
+#section a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;;
+}
+
+#section a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#section a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1010px){
+	input[name="firstname"], input[name="address"], input[name="password"]{
+		width: 300px;
+	}
+
+	.field#field4{
+		float: left;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	.header{
+		position: static;
+	}
+	
+	.userlogin{
+		position: static;
+		float: none;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+
+	.title{
+		font-size:35px;
+	}
+	
+	.menu{
+		margin-bottom: 5px;
+	}
+	  
+	.menu a{
+        width: 100%;
+		float: none;
+		display: block;
+		margin: 12px;
+		margin-left: 0em;
+		font-size: 24px;
+    }
+	  
+	.menu a:not(:first-child) {display: none;}
+	.menu a.icon{
+		display: block;
+		font-size: 24px;
+	}
+	
+	.menu.responsive {position: relative;}
+	.menu.responsive a.icon, .menu.responsive a{
+		display: block;
+		font-size: 24px;
+	}
+	
+	.field{
+		margin-right: 4px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+	
+	.field{
+		clear: left;
+	}
+	.field#field3{
+		margin-left: 0px;
+	}
+	input[name="firstname"], input[name="address"]{
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 600px) {	
+	.header{
+		position: static;
+	}
+	
+	.userlogin{
+		position: static;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	input, input[name="firstname"], input[name="address"], input[name="password"]{
+		width: 100%;
+	}
+	
+	.field#field1, .field#field2, .field#field3, .field#field4{
+		float:none;
+		margin-left: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+
+}
